@@ -9,7 +9,7 @@ body{
 }
 :root{
     --color:rgb(255,89,0);
-     --bgcolor:linear-gradient(to right ,red,orange);
+     --bgcolor:linear-gradient(45deg,blue,rgb(255,0,81), blue,red,blue);
     --hover:white;
 }
 nav{
@@ -44,7 +44,7 @@ nav h2{
 button{
     background-color: black;
     color: var(--hover);
-    border: 2px solid var(--color);
+    border: 2px solid darkgray;
     width: max-content;
     padding: 5px;
     height: 30px;
@@ -53,6 +53,8 @@ button{
 button:hover{
     cursor: pointer;
     background: var(--bgcolor);
+    transform: scale (1.1);
+border-radius:0 50pt;
 }
 .first{
     display: flex;
@@ -153,7 +155,7 @@ z-index:99;
 }
 .skill2{
     font-weight: bold;
-    font-size: 20px x;
+    font-size: 20px ;
     padding: 50px;
     display: flex;
     gap:  15%;
@@ -255,6 +257,8 @@ z-index:99;
 .member1:hover,.member2:hover,.member3:hover,.member4:hover,.member5:hover,.member6:hover{
     background: var(--bgcolor);
     cursor: pointer;
+    border-radius:50pt 0;
+   transform: scale(1.1);
 }
 .video{
     margin: 100px;

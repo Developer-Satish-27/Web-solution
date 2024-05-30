@@ -55,6 +55,7 @@ button:hover{
     background: var(--bgcolor);
     transform: scale (1.1);
 border-radius:0 50pt;
+box-shadow:5px 5px 5px var(--color);
 }
 .first{
     display: flex;

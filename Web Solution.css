@@ -9,7 +9,7 @@ body{
 }
 :root{
     --color:rgb(174,22,154);
-     --bgcolor:linear-gradient(45deg,blue,rgb(255,0,81), blue,red,blue);
+     --bgcolor:linear-gradient(45deg,navy,green,blue,green,navy);
     --hover:white;
 }
 nav{
@@ -256,6 +256,7 @@ z-index:99;
     background-color: rgba(107, 106, 106, 0.592);
 }
 .member1:hover,.member2:hover,.member3:hover,.member4:hover,.member5:hover,.member6:hover{
+    transition:all 0.5s ease-in;
     background: var(--bgcolor);
     cursor: pointer;
     border-radius:0 50pt;

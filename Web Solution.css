@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 8%;
     z-index: 999;
     background-color: black;
     position: fixed;
@@ -29,12 +29,12 @@ nav{
     list-style: none;
     gap: 20px;
     position: relative;
-    left: 8%;
+    
     
 }
 nav h2{
     position: relative;
-    left: -8%;
+   
 }
 .navul li:hover{
     cursor: pointer;
@@ -60,13 +60,13 @@ box-shadow:5px 5px 5px var(--color);
 .first{
     display: flex;
     padding-top:150px ;
-    gap: 150px;
+    gap: 15%;
     margin: 2%;
 
 }
 .man{
     position: relative;
-    top: -100px;
+    top: -10vh;
 }
 .firstchild{
     width: 40%;
@@ -83,7 +83,7 @@ box-shadow:5px 5px 5px var(--color);
 .second{
     display: flex;
     padding: 50px;
-    gap: 40px;
+    gap: 5%;
 
 }
 .digital{
@@ -146,9 +146,9 @@ z-index:99;
    
 }
 .img{
-    margin: 10px;
-    height: 250px;
-    width: 300px;
+    margin: 5%;
+    height: 25vh;
+    width: 25vw;
 }
 .skill{
     text-align: center;
@@ -164,8 +164,8 @@ z-index:99;
 }
 .circle1{
     border: 10px solid var(--color);
-    height: 120px;
-    width: 120px;
+    height: 13vh;
+    width: 10vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -175,8 +175,8 @@ z-index:99;
 
     border: 10px solid var(--color);
     border-left-color:  gray;
-    height: 120px;
-    width: 120px;
+    height: 13vh;
+    width: 10vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -186,8 +186,8 @@ z-index:99;
     border: 10px solid gray;
     border-right-color:var(--color) ;
     border-bottom-color:var(--color) ;
-    height: 120px;
-    width: 120px;
+    height: 13vh;
+    width: 10vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -196,8 +196,8 @@ z-index:99;
 .circle4{
     border: 10px solid gray;
    border-right-color: var(--color);
-    height: 120px;
-    width: 120px;
+    height: 13vh;
+    width: 10vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -216,8 +216,8 @@ z-index:99;
 }
 .circle{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 12vh;
+    width: 9vw;
 }
 .team h1{
     grid-area: text1;
@@ -259,25 +259,26 @@ z-index:99;
     transition:all 0.5s ease-in;
     background: var(--bgcolor);
     cursor: pointer;
-    border-radius:0 50pt;
+    border-radius:50pt 50pt;
    transform: scale(1.1);
 }
 .video{
-    margin: 100px;
+    margin: 10%;
     text-align: center;
     border-radius: 50pt;
     
 }
 video{
     border-radius: 50pt;
-    height: 400px;
+    height: 40vh
+;
 }
 .plans{
     text-align: center;
 }
 .plans2{
     display: flex;
-    gap: 20px;
+    gap: 1%;
     line-height: 40px;
 }
 .price{
@@ -309,7 +310,7 @@ video{
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 50px;
+     gap: 10%;
 }
 .info{
     display: flex;
@@ -327,8 +328,8 @@ video{
     line-height: 30px;
 }
 input{
-    height: 30px;
-    width: 350px;
+    height: 3vh;
+    width: 25vw;
     background-color: black;
     border: 2px solid gray;
 
@@ -338,13 +339,13 @@ input{
     background: var(--bgcolor);
     border: 2px solid var(--color);
     color: white;
-    width: 150px;
-    height: 35px;
+    width: 10vw;
+    height: 3.5vh;
 }
 footer{
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 15%;
     text-align: center;
     padding: 40px;
     line-height: 30px;

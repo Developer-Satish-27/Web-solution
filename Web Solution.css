@@ -289,6 +289,9 @@ video{
     background-color: rgba(43,42,42,0.664);
     margin: 20px;
 }
+.price p{
+display:flex;
+justify-content: space-between;}
 .price button{
     width: 70%;
     font-size: 40px;

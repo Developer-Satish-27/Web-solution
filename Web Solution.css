@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --color:rgb(174,22,154);
+     --bgcolor:linear-gradient(45deg,navy,green,blue,green,navy);
+    --hover:white;
+}
+nav{
+    font-size: 25px;
+ height: 70px;
+ width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    z-index: 999;
+    background-color: black;
+    position: fixed;
+}
+.navul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: relative;
+    
+    
+}
+nav h2{
+    position: relative;
+   
+}
+.navul li:hover{
+    cursor: pointer;
+    color: var(--color);
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: var(--hover);
+    border: 2px solid darkgray;
+    width: max-content;
+    padding: 5px;
+    height: 30px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background: var(--bgcolor);
+    transform: scale (1.1);
+border-radius: 50pt 0;
+box-shadow:5px 5px 5px var(--color);
+}
+.first{
+    display: flex;
+    padding-top:150px ;
+    gap: 15%;
+    margin: 2%;
+
+}
+.man{
+    position: relative;
+    top: -10vh;
+}
+.firstchild{
+    width: 40%;
+    line-height: 30px;
+}
+.firstchild h1{
+   font-size: 80px;
+   line-height: 80px;
+   background: var(--bgcolor);
+   color: transparent;
+   background-clip: text;
+   background-size: 600% 600%;
+   animation: gradient 10s linear infinite;
+   filter: drop-shadow(0 0 30px auto);
+   font-weight: 400;
+   text-shadow: 0 0 3px auto;
+
+}
+.second{
+    display: flex;
+    padding: 50px;
+    gap: 5%;
+
+}
+
+.digital0 ,.ideas0,.prompt0{ 
+text-align: center;
+line-height: 30px;
+background-color: rgb(45,45,45);
+cursor: pointer;
+position: relative;
+z-index: 99;
+}
+
+
+
+
+.digital,.prompt,.ideas{
+    text-align: center;
+line-height: 30px;
+background-color: rgb(45,45,45);
+cursor: pointer;
+    position: relative;
+    height:350px;
+    width:550px;
+    overflow: hidden;
+    padding: 10px;
+    
+  
+   
+}
+.digital::before,.prompt::before,.ideas::before{
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%) rotate(45deg);
+   height:500px;
+   width:200px ;
+   animation: move 1.5s infinite;
+   z-index: 1;
+   background: var(--bgcolor);
+}
+
+@keyframes move {
+   
+100%{ transform: translate(-50%,-50%) rotate(255deg);}    
+}
+.img{
+    margin: 5%;
+    height: 25vh;
+    width: 22vw;
+}
+.skill{
+    text-align: center;
+    line-height: 30px;
+}
+.skill2{
+    font-weight: bold;
+    font-size: 20px ;
+    padding: 50px;
+    display: flex;
+    gap:  15%;
+    justify-content: center;
+}
+.circle1{
+    border: 10px solid var(--color);
+    height: 13vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle2{
+
+    border: 10px solid var(--color);
+    border-left-color:  gray;
+    height: 13vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle3{
+    border: 10px solid gray;
+    border-right-color:var(--color) ;
+    border-bottom-color:var(--color) ;
+    height: 13vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle4{
+    border: 10px solid gray;
+   border-right-color: var(--color);
+    height: 13vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team{
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "text1 text1 text1"
+                           "text2 text2 text2"
+                            "div1 div2 div3"
+                            "div4 div5 div6";
+    gap: 20px;
+}
+.circle{
+    border-radius: 50%;
+    height: 12vh;
+    width: 9vw;
+}
+.team h1{
+    grid-area: text1;
+}
+.team p{
+    grid-area: text2;
+}
+.member1{
+    padding: 20px;
+    grid-area: div1;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member2{
+    padding: 20px;
+    grid-area: div2;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member3{
+    padding: 20px;
+    grid-area: div3;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member4{
+    padding: 20px;
+    grid-area: div4;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member5{
+    padding: 20px;
+    grid-area: div5;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member6{
+    padding: 20px;
+    grid-area: div6;
+    background-color: rgba(107, 106, 106, 0.592);
+}
+.member1:hover,.member2:hover,.member3:hover,.member4:hover,.member5:hover,.member6:hover{
+    transition:all 0.5s ease-in;
+    background: var(--bgcolor);
+    background-size: 600% 600%;
+    animation: gradient 10s linear infinite;
+    cursor: pointer;
+    border-radius:50pt 50pt;
+   transform: scale(1.1);
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+
+    }
+    100%{background-position: 300% 50%;}
+    
+}
+.video{
+    margin: 10%;
+    text-align: center;
+    border-radius: 50pt;
+    
+}
+video{
+    border-radius: 50pt;
+    height: 40vh
+;
+}
+.plans{
+    text-align: center;
+}
+.plans2{
+    display: flex;
+    gap: 1%;
+    line-height: 40px;
+}
+.price{
+   
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(43,42,42,0.664);
+    margin: 20px;
+}
+.price p{
+display:flex;
+justify-content: space-between;}
+.price button{
+    width: 70%;
+    font-size: 40px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50pt;
+    border-color: gray;
+}
+.price:hover{
+    background: var(--bgcolor);
+    cursor: pointer;
+
+}
+.center{
+    text-align: center;
+}
+.clients{
+    padding: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info2{
+    text-align: center;
+    width: 50%;
+    line-height: 30px;
+    background-color: rgba(45, 45, 45, 0.568);
+    padding: 50px;
+}
+.form{
+    text-align: center;
+    line-height: 30px;
+}
+input{
+    height: 3vh;
+    width: 25vw;
+    background-color: black;
+    border: 2px solid gray;
+
+}
+.submit{
+    cursor: pointer;
+    background: var(--bgcolor);
+    border: 2px solid var(--color);
+    color: white;
+    width: 10vw;
+    height: 3.5vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    text-align: center;
+    padding: 40px;
+    line-height: 30px;
+}
+li{
+    list-style: none;
+}

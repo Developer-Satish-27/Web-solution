@@ -261,7 +261,11 @@ z-index:99;
     cursor: pointer;
     border-radius:50pt 50pt;
    transform: scale(1.1);
-}
+background-size:600% 600%;
+animation: gradient 10s linear-gradient;
+} 
+@keyfreames gradient { 0%{background-position:0% 50%;}
+100%{background-position: 600% 50%;
 .video{
     margin: 10%;
     text-align: center;

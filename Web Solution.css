@@ -132,8 +132,8 @@ cursor: pointer;
 }
 
 @keyframes move {
-   
-100%{ transform: translate(-50%,-50%) rotate(360deg);}    
+   0%{ transform:translate(-50%,-50%) rotate(45deg);}
+100%{ transform: translate(-50%,-50%) rotate(255deg);}    
 }
 .img{
     margin: 5%;

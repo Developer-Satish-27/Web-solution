@@ -133,7 +133,7 @@ cursor: pointer;
 
 @keyframes move {
    
-100%{ transform: translate(-50%,-50%) rotate(255deg);}    
+100%{ transform: translate(-50%,-50%) rotate(360deg);}    
 }
 .img{
     margin: 5%;
